@@ -1,7 +1,7 @@
 import gradio
 from groq import Groq
 client = Groq(
-    api_key="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",
+    api_key="",
 )
 def initialize_messages():
     return [{"role": "system",
